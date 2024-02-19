@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Activity(){
     return (
-        <div>
-            <h3>Activity component</h3>
+        <div className="activity-comp">
+            <h1>Activity component</h1>
         </div>
     )
 }

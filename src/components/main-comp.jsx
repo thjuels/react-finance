@@ -16,13 +16,18 @@ export default function Main(){
                 <QuickInfo />
             </div>
             <div className="overview-row">
-                <Overview />
-                <CardInfo />
-            </div>
-            <div className="activity-container">
-                <Activity />
-                <Payments />
-                <RecentTrans />
+                <div>
+                    <Overview />
+                    <div className="bottom-row">
+                        <Activity />
+                        <Payments />
+
+                    </div>
+                </div>
+                <div>
+                    <CardInfo />
+                    <RecentTrans />
+                </div>
             </div>
         </div>
     )
